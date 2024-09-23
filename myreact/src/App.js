@@ -2,7 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const learnings = ["9/22:自分なりのWeb開発チュートリアルを執筆中。Firebaseについての勉強もした。大学関係では、物理学の勉強をした。AIを提携して、WebカメラをつかったWebアプリ開発をしてみたい。Streamlitで作れるかな",""]
+  const learnings = [
+    "9/22:自分なりのWeb開発チュートリアルを執筆中。Firebaseについての勉強もした。大学関係では、物理学の勉強をした。AIを提携して、WebカメラをつかったWebアプリ開発をしてみたい。Streamlitで作れるかな",
+    "9/23:サークルの開発関係で少し時間を遅らせての執筆。Firebaseのセキュリティについて学んだけど、アウトプットができてないのと、使う当てがない。Astroの勉強もまだ始められてない。HTTPリクエストだけをしまくっている。大学の勉強優先で頑張っている。",
+  ]
   var paper = learnings.map(item => <li>{item}</li>)
   return (
     <div>
