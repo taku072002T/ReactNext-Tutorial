@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import DashboardLayoutBasic from './components/Design/navi.js';
+import ButtonAppBar from './components/Design/navi.js';
 
 // Add a new component for the menu window
 
@@ -14,7 +14,7 @@ function App() {
   
   return (
     <div>
-      <DashboardLayoutBasic />
+      <ButtonAppBar />
       <a href="https://note.com/tuuuuuus/n/n3c845949003e">こちらは1番目</a>
       <a href="https://note.com/tuuuuuus/n/n2282e21a1b19">こちらは2番目</a>
       <a href="./navi.js">yay</a>
