@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './components/Design/navi.js';
 
 function App() {
   const learnings = [
@@ -10,6 +11,9 @@ function App() {
   return (
     <div>
       <navi />
+      <a href="https://note.com/tuuuuuus/n/n3c845949003e">こちらは1番目</a>
+      <a href="https://note.com/tuuuuuus/n/n2282e21a1b19">こちらは2番目</a>
+      <a href="./navi.js">yay</a>
       <h1>プロフィール</h1>
       <p>たくみ</p>
       <a>大学生エンジニア。フルスタック開発者を目指してスキルアップ中。セキュリティら辺の学習が甘いので、CTFとかやってみたいんです。最新の情報を取り入れる体制を整えてる最中。</a>

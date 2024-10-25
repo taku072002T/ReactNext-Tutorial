@@ -1,11 +1,8 @@
-"use client"
+import React, { useState } from 'react';
+import { Menu, X, Home, Archive } from 'lucide-react';
+import { Button } from '@mui/material';
 
-import React, { useState } from 'react'
-import Link from 'next/link'
-import { Menu, X, Home, Archive } from 'lucide-react'
-import { Button } from "@/components/ui/button"
-
-export default function Component() {
+export default function Components() {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleMenu = () => {
@@ -16,19 +13,19 @@ export default function Component() {
     <header className="bg-slate-50 text-slate-800 shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="text-xl font-semibold tracking-tight">
+          <a href="/" className="text-xl font-semibold tracking-tight">
             <span className="text-slate-700">Subtle</span>
             <span className="text-slate-500">Design</span>
-          </Link>
+          </a>
           <nav className="hidden md:flex space-x-6">
-            <Link href="/" className="group flex items-center space-x-2 text-slate-600 hover:text-slate-900 transition-colors duration-200">
+            <a href="/" className="group flex items-center space-x-2 text-slate-600 hover:text-slate-900 transition-colors duration-200">
               <Home className="h-5 w-5" />
               <span className="font-medium">Home</span>
-            </Link>
-            <Link href="/archive" className="group flex items-center space-x-2 text-slate-600 hover:text-slate-900 transition-colors duration-200">
+            </a>
+            <a href="/archive" className="group flex items-center space-x-2 text-slate-600 hover:text-slate-900 transition-colors duration-200">
               <Archive className="h-5 w-5" />
               <span className="font-medium">Archive</span>
-            </Link>
+            </a>
           </nav>
           <div className="md:hidden">
             <Button
@@ -46,7 +43,7 @@ export default function Component() {
       {isOpen && (
         <div className="md:hidden bg-slate-100">
           <div className="px-2 pt-2 pb-3 space-y-1">
-            <Link
+            <a
               href="/"
               className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-slate-900 hover:bg-slate-200 transition-colors duration-200"
             >
@@ -54,8 +51,8 @@ export default function Component() {
                 <Home className="h-5 w-5" />
                 <span>Home</span>
               </div>
-            </Link>
-            <Link
+            </a>
+            <a
               href="/archive"
               className="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-slate-900 hover:bg-slate-200 transition-colors duration-200"
             >
@@ -63,7 +60,7 @@ export default function Component() {
                 <Archive className="h-5 w-5" />
                 <span>Archive</span>
               </div>
-            </Link>
+            </a>
           </div>
         </div>
       )}
