@@ -1,5 +1,6 @@
 # ReactNext-Tutorial
-This is the project for testing
+This is the project for testing.
+
 
 # 使うの
 React
@@ -15,10 +16,18 @@ https://qiita.com/Sicut_study/items/7d8c6f309dddda1a3961
 # マイ・ロードマップ
 
 1.Reactで、自分の学習しているスキルを表示してみよう！
-
+完
 2.Reactで、自分のプロフィールを表示してみよう！
-
+完
 3.Reactで、自分のプロフィールのデザインを整えてみよう！
+今ここ
+デザインを整える盤面。
+・デザインのプロトタイプを作る
+
+・デザインの実装法を選ぶ
+TailWindCSS? MUI? その他？
+
+・デザインの完成形として、Firebaseにデプロイする
 
 4.Reactで、ナビゲーションタブを作ろう！
 
@@ -38,4 +47,4 @@ https://qiita.com/Sicut_study/items/7d8c6f309dddda1a3961
 
 12.学習ログの分析をポートフォリオサイトに表示させてみよう！
 
-13.これまで学習してきたものと、DRFを使ってホテル管理サイトを作ろう！
+13.これまで学習してきたものと、DRFを使って、SNSを作ろう！
