@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import './components/Design/navi.js';
+import DashboardLayoutBasic from './components/Design/navi.js';
+
+// Add a new component for the menu window
+
 
 function App() {
   const learnings = [
@@ -8,9 +11,10 @@ function App() {
     "9/23:サークルの開発関係で少し時間を遅らせての執筆。Firebaseのセキュリティについて学んだけど、アウトプットができてないのと、使う当てがない。Astroの勉強もまだ始められてない。HTTPリクエストだけをしまくっている。大学の勉強優先で頑張っている。",
   ]
   var paper = learnings.map(item => <li>{item}</li>)
+  
   return (
     <div>
-      <navi />
+      <DashboardLayoutBasic />
       <a href="https://note.com/tuuuuuus/n/n3c845949003e">こちらは1番目</a>
       <a href="https://note.com/tuuuuuus/n/n2282e21a1b19">こちらは2番目</a>
       <a href="./navi.js">yay</a>
